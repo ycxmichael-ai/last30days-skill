@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 skills/last30days/scripts/last30days.py * --days 30 --auto-resolve --no-browser-cookies --emit compact --subreddits \"stocks,investing,wallstreetbets,StockMarket,ValueInvesting,CanadianInvestor\" --polymarket-keywords * --plan *)"
+    ],
+    "deny": [
+      "Bash(python3 skills/last30days/scripts/last30days.py setup*)",
+      "Bash(python3 skills/last30days/scripts/last30days.py *--publish*)",
+      "Bash(python3 skills/last30days/scripts/last30days.py *--save-dir*)"
+    ]
+  }
+}
